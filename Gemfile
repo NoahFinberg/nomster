@@ -22,7 +22,11 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'will_paginate', '~> 3.0.6'
 gem 'bootstrap-will_paginate'
 
+#Makes forms easy
 gem 'simple_form'
+
+#User Authentication
+gem 'devise', '>= 3.2.4'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
