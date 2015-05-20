@@ -27,6 +27,14 @@ gem 'simple_form'
 
 #User Authentication
 gem 'devise', '>= 3.2.4'
+
+#For Map Integration
+gem 'geocoder'
+
+#To add values to the ENV on our localhost
+gem 'figaro', '>= 1.0.0'
+
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
