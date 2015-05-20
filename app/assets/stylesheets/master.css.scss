@@ -1,3 +1,25 @@
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.0em 6px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+
 body {
   background: url('/assets/concrete_seamless.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
@@ -33,6 +55,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #map-canvas {
   height: 300px;
+}
+
+.modal-body {
+  background-color: #E8EAEB;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+.modal-footer {
+  background-color: #4B4C4D;
+  opacity: 0.9;
+  border-radius: 4px;
 }
 
 .navbar.navbar-inverse {
