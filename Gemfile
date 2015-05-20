@@ -34,6 +34,11 @@ gem 'geocoder'
 #To add values to the ENV on our localhost
 gem 'figaro', '>= 1.0.0'
 
+#For File uploading
+gem 'carrierwave'
+
+#For carrierwave to communicate with Amazon S3
+gem "fog", "~> 1.3.1"
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
