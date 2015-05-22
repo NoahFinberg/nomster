@@ -2,7 +2,7 @@ class Place < ActiveRecord::Base
 	self.per_page = 3
 
 	belongs_to :user
-	has_many :comments
+	has_many :comments, dependent: :destroy
 	has_many :photos
 
 	geocoded_by :address
