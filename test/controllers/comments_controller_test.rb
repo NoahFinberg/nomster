@@ -25,5 +25,10 @@ class CommentsControllerTest < ActionController::TestCase
 
   end
 
+  test "Email Delivery" do
+  	email = ActionMailer::Base.deliveries.last
+	assert_equal ['no-reply@nomsterapp.com'], email.from
+  end
+
   
 end
